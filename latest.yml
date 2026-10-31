@@ -1,9 +1,9 @@
 version: 1.0.2
 files:
-  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.2.exe
+  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.2.exe?v=1.0.2
     sha512: YICohRzxHZ1199lB/kpLlki1vb7CV8HoCK6A6RgGJtveCiBfFrMoMuAr3Qp7/hlZZPuX3t2ajMxZQj5S+4FKvg==
     size: 394326956
-path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.2.exe
+path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.2.exe?v=1.0.2
 sha512: YICohRzxHZ1199lB/kpLlki1vb7CV8HoCK6A6RgGJtveCiBfFrMoMuAr3Qp7/hlZZPuX3t2ajMxZQj5S+4FKvg==
 releaseDate: '2026-10-31T09:34:18.884Z'
 releaseNotes: "Phiên bản chính thức v1.0.2: Hệ thống Veo3 Thỏ và nhím với tính năng tự động cập nhật một chạm."
