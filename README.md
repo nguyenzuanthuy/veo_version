@@ -12,15 +12,16 @@ Mỗi bản phát hành sẽ có link tải trực tiếp công khai theo chuẩ
 https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-<VERSION>.exe?v=<VERSION>
 ```
 
-*Ví dụ bản v1.0.3:*  
-👉 `https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.3.exe?v=1.0.3`
+*Ví dụ bản v1.0.4:*  
+👉 `https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.4.exe?v=1.0.4`
 
 ---
 
-## 📋 Checklist 5 Bước Phát Hành (Không Thể Bỏ Sót)
+## 📋 Checklist 6 Bước Phát Hành (Không Thể Bỏ Sót)
 
 ```
-[ ] BƯỚC 1: Cập nhật số phiên bản (3 files)
+[ ] BƯỚC 0: Kiểm tra CSDL (Nếu có đổi schema ➜ Bắt buộc thêm ALTER TABLE vào prisma.ts & cập nhật template db)
+[ ] BƯỚC 1: Cập nhật số phiên bản (3 files: package.json, package-lock.json, appVersion.ts)
 [ ] BƯỚC 2: Chạy script đóng gói build bộ cài .exe (Tự động sync bản mới & dọn bản cũ)
 [ ] BƯỚC 3: Commit & Push mã nguồn (Repo veo3: branch developer ➜ PR sang main)
 [ ] BƯỚC 4: Push phiên bản mới & Xóa phiên bản cũ (Repo veo_version)
@@ -31,21 +32,38 @@ https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-T
 
 ## Chi Tiết Từng Bước Thực Hiện
 
+### 🔹 BƯỚC 0: Kiểm tra CSDL & Migration (BẮT BUỘC NẾU CÓ ĐỔI SCHEMA)
+
+> [!CAUTION]
+> **Lưu ý sống còn:** Máy người dùng đang cài bản cũ có file CSDL cá nhân tại `%APPDATA%\veo3-tho-va-nhim\veo3.db`. CSDL này **không tự động nhận cột mới** nếu chỉ sửa `schema.prisma`. Nếu thiếu bước này, khi app update lên sẽ bị lỗi SQLite `no such column`, dẫn đến API crash 500 và màn hình báo *"Không tìm thấy dự án"*!
+
+Khi có bất kỳ thay đổi nào trong `prisma/schema.prisma` (thêm bảng, thêm cột):
+1. **Thêm lệnh `ALTER TABLE` vào [`src/lib/prisma.ts`](file:///c:/Users/nguye/OneDrive/文档/veo3-tho-va-nhim/public-veo3/src/lib/prisma.ts):**
+   Trong hàm `ensureDbInitialized()`, thêm lệnh tương ứng:
+   ```typescript
+   await basePrisma.$executeRawUnsafe('ALTER TABLE "GenJob" ADD COLUMN "tenCotMoi" TEXT;').catch(() => { });
+   ```
+2. **Cập nhật cả 2 file database template:**
+   Chạy lệnh bổ sung cột vào `prisma/veo3.template.db` và `prisma/veo3.db` để người dùng mới cài lần đầu cũng có CSDL chuẩn.
+3. **Chạy `npx prisma generate`** để sinh lại Prisma Client trước khi build.
+
+---
+
 ### 🔹 BƯỚC 1: Nâng phiên bản (Bump Version)
 
 Cần cập nhật đồng bộ số phiên bản `X.Y.Z` ở 3 file trong thư mục `public-veo3`:
 
 1. **`public-veo3/package.json`**:
    ```json
-   "version": "1.0.3"
+   "version": "1.0.4"
    ```
 2. **`public-veo3/package-lock.json`**:
    ```json
-   "version": "1.0.3"
+   "version": "1.0.4"
    ```
 3. **`public-veo3/src/lib/appVersion.ts`**:
    ```typescript
-   export const CURRENT_APP_VERSION = '1.0.3';
+   export const CURRENT_APP_VERSION = '1.0.4';
    ```
 
 ---
@@ -85,7 +103,7 @@ Script này sẽ tự động:
 ```powershell
 cd "c:\Users\nguye\OneDrive\文档\veo3-tho-va-nhim\public-veo3"
 git add .
-git commit -m "release: v1.0.3 - bump version and release features"
+git commit -m "release: v1.0.4 - bump version and release features"
 git push origin developer
 ```
 
@@ -116,15 +134,15 @@ cd "c:\Users\nguye\OneDrive\文档\veo3-tho-va-nhim\veo_version"
 git add -A
 
 # 2. Commit
-git commit -m "release: v1.0.3 - update installer and remove old versions"
+git commit -m "release: v1.0.4 - update installer and remove old versions"
 
 # 3. Push code và binary Git LFS
 git push origin main
 git lfs push --all origin main
 
 # 4. Gắn tag cho phiên bản mới
-git tag -a "v1.0.3" -m "Release v1.0.3" -f
-git push origin "v1.0.3" -f
+git tag -a "v1.0.4" -m "Release v1.0.4" -f
+git push origin "v1.0.4" -f
 ```
 
 *(Lưu ý: Dùng `git add -A` thay vì `git add *.exe*` để Git ghi nhận cả hành động xóa bỏ các file ver cũ).*
@@ -141,11 +159,11 @@ git push origin "v1.0.3" -f
 
 2. **Kiểm tra Link tải bộ cài trực tiếp:**
    ```powershell
-   curl.exe -I -m 10 "https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.3.exe?v=1.0.3"
+   curl.exe -I -m 10 "https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.4.exe?v=1.0.4"
    ```
    *(Phải trả về HTTP 200 OK kèm dung lượng ~406 MB).*
 
 3. **Kiểm tra Auto-Update trên Tool máy khách:**
-   - Mở ứng dụng Veo3 bản cũ (v1.0.1 hoặc v1.0.2).
-   - Góc trái bên dưới hiện thông báo có bản mới: `Bản v1.0.3 [Cập nhật]`.
-   - Nhấn nút **Cập nhật** ➜ Phần trăm tải chạy từ `0%` ➜ `100%` ➜ App tự khởi động lại và nâng cấp lên `v1.0.3`.
+   - Mở ứng dụng Veo3 bản cũ.
+   - Góc trái bên dưới hiện thông báo có bản mới: `Bản v1.0.4 [Cập nhật]`.
+   - Nhấn nút **Cập nhật** ➜ Phần trăm tải chạy từ `0%` ➜ `100%` ➜ App tự khởi động lại và nâng cấp lên `v1.0.4`.
