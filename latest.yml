@@ -1,9 +1,9 @@
-version: 1.0.4
+version: 1.0.5
 files:
-  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.4.exe?v=1.0.4
-    sha512: gDgeVDsv32P/c8WetaLP2R0phQ8tUU8NbpZfaBxBsspzotAokXgeueN5Ml/Co3zvmA60hJvV+01pSwsMCaqsHw==
-    size: 411948063
-path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.4.exe?v=1.0.4
-sha512: gDgeVDsv32P/c8WetaLP2R0phQ8tUU8NbpZfaBxBsspzotAokXgeueN5Ml/Co3zvmA60hJvV+01pSwsMCaqsHw==
-releaseDate: '2026-11-01T17:42:40.147Z'
-releaseNotes: "Phiên bản chính thức v1.0.4: Bản vá nâng cấp cấu trúc CSDL tự động và sửa lỗi truy cập chi tiết dự án."
+  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.5.exe?v=1.0.5
+    sha512: 0Kq9NIHZYb6+y4D6Fj44l5QsGsjew6rAynQ/YOr2BhDpqAP/Neu4ze+jrtMaZ54F0JkqF6Mwm7DKOkrmdauV3A==
+    size: 411959324
+path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.5.exe?v=1.0.5
+sha512: 0Kq9NIHZYb6+y4D6Fj44l5QsGsjew6rAynQ/YOr2BhDpqAP/Neu4ze+jrtMaZ54F0JkqF6Mwm7DKOkrmdauV3A==
+releaseDate: '2026-11-02T08:12:05.264Z'
+releaseNotes: "PhiÃªn báº£n chÃ­nh thá»©c v1.0.5: Há»‡ thá»‘ng Veo3 Thá» vÃ  nhÃ­m vá»›i tÃ­nh nÄƒng tá»± Ä‘á»™ng cáº­p nháº­t má»™t cháº¡m."
