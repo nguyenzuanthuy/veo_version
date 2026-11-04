@@ -1,9 +1,9 @@
 version: 1.0.6
 files:
   - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
-    sha512: uQunCJ95Ke3iqBJ7d+dT37Y1W4ux+q+9xSRunDr1EgViP6uRO/9G+eowQyBtrXTKdFjpEeptAvq+ShMvp3BfCw==
-    size: 183802172
+    sha512: wP+edd1u1DwSVUFhEkKXzM5dVu1HXBJfW4LcMZwG695oOYYdTBVJBTQCD/zO2A+tCPcIrAzZHjQnliYw5YsA5w==
+    size: 183818608
 path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
-sha512: uQunCJ95Ke3iqBJ7d+dT37Y1W4ux+q+9xSRunDr1EgViP6uRO/9G+eowQyBtrXTKdFjpEeptAvq+ShMvp3BfCw==
-releaseDate: '2026-11-04T03:52:51.654Z'
-releaseNotes: "Phiên bản v1.0.6: Tối ưu dung lượng cài đặt, đồng bộ giao diện và cập nhật schema CSDL."
+sha512: wP+edd1u1DwSVUFhEkKXzM5dVu1HXBJfW4LcMZwG695oOYYdTBVJBTQCD/zO2A+tCPcIrAzZHjQnliYw5YsA5w==
+releaseDate: '2026-11-04T05:22:37.308Z'
+releaseNotes: "Phiên bản v1.0.6: Sửa lỗi updater (debug module), tối ưu dung lượng và cập nhật CSDL."
