@@ -1,9 +1,9 @@
-version: 1.0.6
+version: 1.0.7
 files:
-  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
-    sha512: XTmYdjlCukOaq9FmWXforA8xU/rcfP1aL8rHvAnzFlLNQqFRjNWa3JtjexMQZldGswFFICWU70tA6DqGZXjmjA==
-    size: 221390035
-path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
-sha512: XTmYdjlCukOaq9FmWXforA8xU/rcfP1aL8rHvAnzFlLNQqFRjNWa3JtjexMQZldGswFFICWU70tA6DqGZXjmjA==
-releaseDate: '2026-11-04T09:07:40.328Z'
-releaseNotes: "Phiên bản v1.0.6: Phân tách độc lập chế độ Text to Video và Đồng bộ nhân vật, tránh nhầm lẫn ảnh tham chiếu."
+  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.7.exe?v=1.0.7
+    sha512: /y7bQyOpIvOugmKHI48oVuAZi+kpEz8oPtUistwNa3ul3YwYhq2m0adqa/pqWa7Mol+Fl8mhHcHao+C4/UNxCg==
+    size: 221390307
+path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.7.exe?v=1.0.7
+sha512: /y7bQyOpIvOugmKHI48oVuAZi+kpEz8oPtUistwNa3ul3YwYhq2m0adqa/pqWa7Mol+Fl8mhHcHao+C4/UNxCg==
+releaseDate: '2026-11-04T13:24:46.320Z'
+releaseNotes: "PhiÃªn báº£n chÃ­nh thá»©c v1.0.7: Há»‡ thá»‘ng Veo3 Thá» vÃ  nhÃ­m vá»›i tÃ­nh nÄƒng tá»± Ä‘á»™ng cáº­p nháº­t má»™t cháº¡m."
