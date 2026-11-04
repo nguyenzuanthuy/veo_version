@@ -1,9 +1,9 @@
 version: 1.0.6
 files:
   - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
-    sha512: LOE+hsTZ+ZXO5gA81r0YSBctP4yaXoSUffcNG0lNZ+VYMj0cbH1w5DHZ6LlcV3hao2cHQwarpeZ6/VQdLPq5Rw==
-    size: 447180392
+    sha512: uQunCJ95Ke3iqBJ7d+dT37Y1W4ux+q+9xSRunDr1EgViP6uRO/9G+eowQyBtrXTKdFjpEeptAvq+ShMvp3BfCw==
+    size: 183802172
 path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
-sha512: LOE+hsTZ+ZXO5gA81r0YSBctP4yaXoSUffcNG0lNZ+VYMj0cbH1w5DHZ6LlcV3hao2cHQwarpeZ6/VQdLPq5Rw==
-releaseDate: '2026-11-04T03:12:10.505Z'
-releaseNotes: "PhiÃªn báº£n chÃ­nh thá»©c v1.0.6: Há»‡ thá»‘ng Veo3 Thá» vÃ  nhÃ­m vá»›i tÃ­nh nÄƒng tá»± Ä‘á»™ng cáº­p nháº­t má»™t cháº¡m."
+sha512: uQunCJ95Ke3iqBJ7d+dT37Y1W4ux+q+9xSRunDr1EgViP6uRO/9G+eowQyBtrXTKdFjpEeptAvq+ShMvp3BfCw==
+releaseDate: '2026-11-04T03:52:51.654Z'
+releaseNotes: "Phiên bản v1.0.6: Tối ưu dung lượng cài đặt, đồng bộ giao diện và cập nhật schema CSDL."
