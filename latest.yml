@@ -1,9 +1,9 @@
 version: 1.0.6
 files:
   - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
-    sha512: Rd9rukWmk5AajFHDA9tLMdWObRGBJdWiZn+NwTrK3PkjIz36Lp3ImEi3dbj91PZQehbdC9yR2xvDNPzaJXgLKw==
-    size: 221392490
+    sha512: XTmYdjlCukOaq9FmWXforA8xU/rcfP1aL8rHvAnzFlLNQqFRjNWa3JtjexMQZldGswFFICWU70tA6DqGZXjmjA==
+    size: 221390035
 path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
-sha512: Rd9rukWmk5AajFHDA9tLMdWObRGBJdWiZn+NwTrK3PkjIz36Lp3ImEi3dbj91PZQehbdC9yR2xvDNPzaJXgLKw==
-releaseDate: '2026-11-04T06:42:41.065Z'
-releaseNotes: "Phiên bản v1.0.6: Khắc phục triệt để lỗi server timeout, bổ sung Next runtime và tối ưu dung lượng."
+sha512: XTmYdjlCukOaq9FmWXforA8xU/rcfP1aL8rHvAnzFlLNQqFRjNWa3JtjexMQZldGswFFICWU70tA6DqGZXjmjA==
+releaseDate: '2026-11-04T09:07:40.328Z'
+releaseNotes: "Phiên bản v1.0.6: Phân tách độc lập chế độ Text to Video và Đồng bộ nhân vật, tránh nhầm lẫn ảnh tham chiếu."
