@@ -1,9 +1,8 @@
-version: 1.0.7
+version: 1.0.8
 files:
-  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.7.exe?v=1.0.7
-    sha512: /y7bQyOpIvOugmKHI48oVuAZi+kpEz8oPtUistwNa3ul3YwYhq2m0adqa/pqWa7Mol+Fl8mhHcHao+C4/UNxCg==
-    size: 221390307
-path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.7.exe?v=1.0.7
-sha512: /y7bQyOpIvOugmKHI48oVuAZi+kpEz8oPtUistwNa3ul3YwYhq2m0adqa/pqWa7Mol+Fl8mhHcHao+C4/UNxCg==
-releaseDate: '2026-11-04T13:24:46.320Z'
-releaseNotes: "PhiÃªn báº£n chÃ­nh thá»©c v1.0.7: Há»‡ thá»‘ng Veo3 Thá» vÃ  nhÃ­m vá»›i tÃ­nh nÄƒng tá»± Ä‘á»™ng cáº­p nháº­t má»™t cháº¡m."
+  - url: Veo3-Tho-va-nhim-Setup-1.0.8.exe
+    sha512: PTNyWvrecflr2Y582CrGNDqXYbAUAT3TguqE5apaswIHfUoEijlASuFStQnq/cDRzkrVdDE3gEXnSG/l/Nt8Pg==
+    size: 221471515
+path: Veo3-Tho-va-nhim-Setup-1.0.8.exe
+sha512: PTNyWvrecflr2Y582CrGNDqXYbAUAT3TguqE5apaswIHfUoEijlASuFStQnq/cDRzkrVdDE3gEXnSG/l/Nt8Pg==
+releaseDate: '2026-11-04T17:05:34.569Z'
