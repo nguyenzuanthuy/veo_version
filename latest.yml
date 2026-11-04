@@ -1,9 +1,9 @@
-version: 1.0.5
+version: 1.0.6
 files:
-  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.5.exe?v=1.0.5
-    sha512: 0Kq9NIHZYb6+y4D6Fj44l5QsGsjew6rAynQ/YOr2BhDpqAP/Neu4ze+jrtMaZ54F0JkqF6Mwm7DKOkrmdauV3A==
-    size: 411959324
-path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.5.exe?v=1.0.5
-sha512: 0Kq9NIHZYb6+y4D6Fj44l5QsGsjew6rAynQ/YOr2BhDpqAP/Neu4ze+jrtMaZ54F0JkqF6Mwm7DKOkrmdauV3A==
-releaseDate: '2026-11-02T08:12:05.264Z'
-releaseNotes: "PhiÃªn báº£n chÃ­nh thá»©c v1.0.5: Há»‡ thá»‘ng Veo3 Thá» vÃ  nhÃ­m vá»›i tÃ­nh nÄƒng tá»± Ä‘á»™ng cáº­p nháº­t má»™t cháº¡m."
+  - url: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
+    sha512: LOE+hsTZ+ZXO5gA81r0YSBctP4yaXoSUffcNG0lNZ+VYMj0cbH1w5DHZ6LlcV3hao2cHQwarpeZ6/VQdLPq5Rw==
+    size: 447180392
+path: https://media.githubusercontent.com/media/nguyenzuanthuy/veo_version/main/Veo3-Tho-va-nhim-Setup-1.0.6.exe?v=1.0.6
+sha512: LOE+hsTZ+ZXO5gA81r0YSBctP4yaXoSUffcNG0lNZ+VYMj0cbH1w5DHZ6LlcV3hao2cHQwarpeZ6/VQdLPq5Rw==
+releaseDate: '2026-11-04T03:12:10.505Z'
+releaseNotes: "PhiÃªn báº£n chÃ­nh thá»©c v1.0.6: Há»‡ thá»‘ng Veo3 Thá» vÃ  nhÃ­m vá»›i tÃ­nh nÄƒng tá»± Ä‘á»™ng cáº­p nháº­t má»™t cháº¡m."
