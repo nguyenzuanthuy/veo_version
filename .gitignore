@@ -1,0 +1,10 @@
+# Chỉ lưu trữ file binary phát hành và metadata updater
+*.ps1
+*.sh
+*.bat
+*.env*
+*.md
+*.doc*
+*.txt
+*.json
+!latest.yml
